@@ -10,38 +10,6 @@ Regression analysis with confidence intervals
 Statistical summaries of advertising performance
 Visual representations of relationships between variables
 
-Prerequisites
-
-Python 3.8 or higher
-Required Python packages (see requirements.txt)
-
-Installation
-
-Clone the repository
-
-bashCopygit clone https://github.com/yourusername/sales-predictor.git
-cd sales-predictor
-
-Create a virtual environment (recommended)
-
-bashCopy# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# Linux/Mac
-python3 -m venv venv
-source venv/bin/activate
-
-Install required packages
-
-bashCopypip install -r requirements.txt
-
-Download the dataset
-
-
-Download the 'Advertising.csv' file from the repository
-Place it in the project root directory
-
 Usage
 Run the main script:
 bashCopypython sales_predictor.py
